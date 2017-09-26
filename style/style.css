@@ -1,0 +1,381 @@
+@font-face{
+    font-family:forum;
+    src:url("/forum/style/usern.ttf");
+    
+}
+
+@font-face{
+    font-family:calibri;
+    src:url("/forum/style/Calibri.ttf");
+    
+}
+
+body{
+background-color: gainsboro; 
+    font-family: calibri;
+    
+}
+.header{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:100%;
+    height:80px;
+    background-color: RGB(44,169,229);
+    
+    
+}
+.menud{
+    position:absolute;
+    top:30px;
+    right:10px;  
+    width:400px;
+    height:40px;
+    background-color: RGB(44,169,229);
+    font-family: calibri;
+}
+.menu{
+    position: absolute;
+    top:80px;
+    left: 0px;
+    width:100%;
+    height:80px;
+    background-color:aliceblue;
+    text-align: left;
+    padding: 4px;
+    padding-left: 12px;
+     
+    
+}
+.criteria{
+    position: absolute;
+    top:20px;
+    left: 200px;
+    width:50%;
+    height:60px;
+    background-color:aliceblue;
+    text-align: left;
+    padding: 4px;
+    padding-left: 12px;
+     
+    
+}
+#isE{
+    color:red;
+}
+h3{
+   margin-left:4px;
+    font-family: inherit;
+}
+.title{
+    
+    color:white;
+    font-family:forum;
+    font-weight: bold;
+    font-size: 25pt;
+    text-align: left;
+    margin-left:2cm;
+    font-weight: 200;
+}
+#icnxt{
+    
+    color:yellowgreen;
+    font-family:forum;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-right:1cm;
+    font-weight: 200;
+    text-align: right;
+ 
+}
+hr{
+    width:80%;
+    color:yellowgreen;
+    margin-left:1cm;
+    margin-right:5cm;
+}
+
+.content{
+    position: absolute;
+    border: 2px solid white;    
+    border-radius: 10px;
+    top:180px;
+    left:50px;
+    width:90%;
+    background-color:white;
+    float:left;
+    min-height:100%;
+      
+    
+}
+
+.authentif{
+   position: absolute;
+    top:2px;
+    right:200px;
+    display: table;
+    margin: 0 auto;
+    color:whitesmoke;
+}
+.button {
+    position: absolute;
+    top:25px;
+    right:-160px;
+    background-color: white;
+    
+    color: lightslategray;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px 8px;
+    margin: 0 10px 0 0;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover {background-color: #e7e7e7;}
+.button2{
+    
+    top:55px;
+}
+ul > li {
+    display: inline-block;
+    /* You can also add some margins here to make it look prettier */
+    zoom:1;
+    *display:inline;
+    /* this fix is needed for IE7- */
+    margin-left: 15px;
+}
+a{
+    text-decoration: none;
+}
+
+.modal,.modale {
+text-align:center;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close,.close2,.closee {
+    color:dimgrey;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close,.close2,.closee:hover,
+.close,.close2,.closee:focus {
+    color: RGB(229,150,42);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.log-section h1 {font-size: 1.8em;font-family: roboto;color:darkslategray;}
+
+.log-section input[type=text], input[type=password]{
+   
+    height: 44px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;}
+.log-section input[type=text]:hover, input[type=password]:hover {border: 1px solid #b9b9b9;border-top: 1px solid #a0a0a0;
+-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);}
+
+
+
+
+a#icnxt{
+    float:right;
+}
+button{
+    border-radius: 18px; 
+background-color: white;
+border: 0px solid #800000;
+    cursor:pointer;
+    padding: 10px 32px;
+    opacity: 1;
+    color:white;
+    font-family: calibri;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: RGB(44,169,229);
+}
+button:hover{
+   background-color: RGB(20,147,209);
+    color:ghostwhite;   
+}
+
+.dropdown-content{
+    border-radius: 18px; 
+    border-color:yellowgreen;
+    border-style: solid;
+    border-width: 2px;
+    position:absolute;
+    top:70px;
+    right:37px;  
+    width:200px;
+    height:300px;
+    background-color: white;
+    z-index:1;
+    display: none;
+    overflow-y: scroll;
+    margin-left:2cm;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+   
+}
+
+tr:hover{background-color:#f5f5f5}
+.titlem{
+    font-size: bold;
+    color: RGB(44,169,229);
+    font-weight: bolder;
+    font-size: 20px;
+   
+    
+}
+.mauthor{
+    font-size: bold;
+    color: yellowgreen;
+    font-weight: bolder;
+    font-size: 16px;
+    
+}
+.mtime{
+    font-size: bold;
+    font-weight: bolder;
+    font-size: 13px;
+    
+}
+p{
+    margin-left:1cm;
+    margin-right:5cm;
+     text-align: justify;
+   
+}
+p.info{
+    text-align: right;
+}
+img.cmnt{
+    width: 50px;
+      
+}
+td.ccmnt{
+    background-image: url(cmnt.png);
+       background-position:30%; 
+    background-size: 50px 50px;
+     background-repeat: no-repeat;
+   text-align: center;
+    padding-right: 5cm;
+    color:RGB(74,166,148);
+}
+
+
+
+#postmsg{
+    text-align: left;
+    margin-left: 1cm;
+}
+textarea {
+    width: 90%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-family: calibri;
+    font-size: 16px;
+    resize: none;
+}
+textarea:focus {
+    border-color:skyblue;
+}
+.log-sections input[type=text]{
+       height: 44px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+     border: 2px solid #ccc;
+  
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+    
+}
+.log-sections input[type=text],input[type=select]:focus{border-color:skyblue;}
+.log-sections input[type=submit]{
+     height: 44px;
+    font-size: 16px;
+    
+    text-decoration: none;
+}
+
+.notif{
+    background-color:RGB(220,92,40);
+    position:absolute;
+    top:10px;
+    right: 73px;
+    width:20px;
+    height:25px;
+    border: 2px solid white;    
+    border-radius: 500px;
+    padding-left: 12px;
+    
+}

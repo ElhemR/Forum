@@ -1,0 +1,62 @@
+<web-app>
+
+   <servlet>
+      <servlet-name>Register</servlet-name>
+      <servlet-class>Register</servlet-class>
+
+  </servlet>
+
+  <servlet-mapping>
+      <servlet-name>Register</servlet-name>
+      <url-pattern>/servlet/Register</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+      <servlet-name>Login</servlet-name>
+      <servlet-class>Login</servlet-class>
+
+  </servlet>
+
+  <servlet-mapping>
+      <servlet-name>Login</servlet-name>
+      <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>Logout</servlet-class>
+    
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/servlet/Logout</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>Postmsg</servlet-name>
+    <servlet-class>Postmsg</servlet-class>
+    
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Postmsg</servlet-name>
+    <url-pattern>/servlet/Postmsg</url-pattern>
+    
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Editmsg</servlet-name>
+    <servlet-class>Editmsg</servlet-class>
+    
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Editmsg</servlet-name>
+    <url-pattern>/servlet/Editmsg</url-pattern>
+</servlet-mapping>
+
+
+
+</web-app>

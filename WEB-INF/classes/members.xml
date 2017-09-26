@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Members xmlns="http://www.w3.org/1999/xhtml">
+<Member>
+<username>admin</username>
+<email>rebhielhem@gmail.com</email>
+<password>admin</password>
+</Member>
+<member>
+<username>elhem</username>
+<email>rebhielhem@gmail.com</email>
+<password>elhem</password></member>
+</Members>
+
